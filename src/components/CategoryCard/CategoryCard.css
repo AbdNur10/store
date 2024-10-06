@@ -1,0 +1,13 @@
+.category-card{
+    border: 1px solid pink;
+    padding: 1.4rem;
+    border-radius: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.category-name{ 
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+}

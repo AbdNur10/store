@@ -1,0 +1,123 @@
+.cart-wrapper{
+    background: white;
+    border: 1px solid pink;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.cart-container{
+    display: flex;
+    align-items: start;
+    gap: 20;
+}
+.cart-items{
+   flex:1;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Items Part*/
+
+
+.items-details{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid pink;
+    color: black;
+    margin-top: 10px;
+}
+.items-info{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.items-title{
+    width: 300px;
+}
+.items-image{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.items-image img{
+    width: 50px;
+}
+.items-quantity{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.items-remove{
+    color: red;
+    font-weight: bold;
+}
+.items-quantity , .items-remove{
+    cursor: pointer;
+}
+
+.no-items{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.3rem;
+    
+}
+
+.card-summary{
+    width: 250px;
+    background-color:  pink;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+.summary-title{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.summary-total,.summary-subTotal,
+.summary-total-quantity,
+.summary-total-amount, .summary-total-tax{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.summary-total span,.summary-subTotal span,
+.summary-total-quantity span,
+.summary-total-amount span, .summary-total-tax span{
+        color:black
+}
+.summary-total-amount{
+    margin-top: 2rem;
+}
+
+.summary-check-out-button{
+        width: 85%;
+        background-color: black;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        color:white;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 1rem;
+        cursor: pointer;
+}
+.cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}

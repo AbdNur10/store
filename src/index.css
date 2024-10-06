@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Mooli:regular);
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Mooli", sans-serif;
+  border: none;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background-color: black;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 5%;
+}
+
+.section-title {
+  color: #344955;
+}
+
+.products,
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cart-page,
+.detail-page {
+  padding: 2rem 5%;
+}
